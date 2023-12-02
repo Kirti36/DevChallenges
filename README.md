@@ -1,4 +1,4 @@
-# Dev Challenges 🌐:
+# Dev Challenges 💻:
 
 <div align="center">
   
@@ -7,7 +7,7 @@
 </div>
 
 Dev Challenges provide challenges in **Web development**   
-## Technologies Used 💻:
+## Technologies Used :
 
 - HTML5
 - CSS3
