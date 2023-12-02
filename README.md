@@ -12,6 +12,9 @@ Dev Challenges provide challenges in **Web development**
 - HTML5
 - CSS3
 - JavaScript
+ <br>
+ **Resposive Web Devloper** 
+1st Task [Minimal BLog card-  https://minimal-blog-card-chal.vercel.app/
 
 
 </br>
