@@ -15,7 +15,8 @@ Dev Challenges provide challenges in **Web development**
  <br>
  
  **Resposive Web Devloper** 
-- 1st Task [Minimal BLog card-  https://minimal-blog-card-chal.vercel.app/
+- 1st Task **Minimal BLog card-**  [https://minimal-blog-card-chal.vercel.app/]
+- 2nd Task **QrCode generator-**
 
 
 </br>
