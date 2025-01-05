@@ -1,0 +1,76 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input name="keyboard" id="keyboard" placeholder="Enter number">
+    <button type=" submit" onclick="fact()">Submit</button>
+    <script>
+        let a;
+
+        function fact(a) {
+            let f = 1;
+            if (a == 0 || a == 1) {
+                console.log(1);
+            } else {
+                f = f * fact(a - 1);
+
+
+            }
+            consol.log(f)
+        }
+        // let h = "";
+
+        // h = () => "Hellow ";
+        // document.getElementById("io").innerHTML = h();
+        // let fun = (a, b) => a + b;
+        // document.getElementById("io").innerHTML = fun(2, 3);
+    </script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Calculator</title>
+</head>
+
+<body style="text-align:center; background-color: lavender;">
+
+    <h1>Factorial Calculator</h1>
+
+    <label for="number">Enter a number: </label>
+    <input type="number" id="numberInput">
+    <button type="button" onclick="calculateFactorial()">Calculate Factorial</button>
+    <p id="result"></p>
+
+    <script>
+        function calculateFactorial() {
+            const numberInput = document.getElementById("numberInput").value;
+            const resultElement = document.getElementById("result");
+
+            if (isNaN(numberInput) || numberInput < 0) {
+                resultElement.textContent = "Please enter a non-negative number.";
+                return;
+            }
+
+            let factorial = 1;
+            for (let i = 1; i <= numberInput; i++) {
+                factorial *= i;
+            }
+
+            resultElement.textContent = `The factorial of ${numberInput} is ${factorial}.`;
+        }
+    </script>
+</body>
+
+</html>
